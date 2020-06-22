@@ -1,0 +1,20 @@
+h1 {
+	font-family: cursive;
+}
+
+/* For margins, it is: margin: top, right, bottom, left */
+/* Box model from out to in is margin, border, padding, content */
+p {
+	font-family: 'Barrio', cursive;
+	font-size: 20px;
+}
+
+#TOP {
+	border: 4px solid blue;
+	text-align: center;
+	margin: 10px 100px 100px 10px;
+}
+
+#BOTTOM {
+	border: 4px solid red;
+}	

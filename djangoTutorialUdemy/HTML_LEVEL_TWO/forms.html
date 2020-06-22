@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+	</title>
+</head>
+<body>
+	<!-- Form for part 1 -->
+	<form class = "" action = "" method = "">
+		<h1>Log In</h1>
+		<h2>Please enter email and password</h2>
+		<!-- types include email, text, password, color, etc  -->
+		<input type = "email" name = "email" value = "">
+		<input type="password" name="password">
+		<input type="color" name="colorPicker">
+		<input type="submit" name="submitOne" value = "Submit">
+	</form>
+
+	<!-- Form for part 2 -->
+	<form action = "http://www.facebook.com" method = "GET">
+		<!-- See labels with inputs embedded -->
+		<label>
+			Enter email:
+			<input type="email" name="useremail">
+		</label>
+		<label>
+			Enter password:
+			<input type="submit" name="submitTwo" value = "Submit">
+		</label>
+
+		<!-- See labels with inputs outside using id -->
+		<label for = "userinput">Enter Input:</label>
+		<input id = "userinput" type="email" name="bleh" placeholder="Placeholder text" required>
+
+	</form>
+</body>
+</html>

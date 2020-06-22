@@ -1,0 +1,64 @@
+/* we got some comments in CSS bro
+*/
+
+
+h1 {
+	color: blue;
+}
+
+p {
+	color: rgb(100, 200, 300);
+}
+
+h4 {
+	color: rgba(100, 200, 400, 1);
+}
+
+/* can use body tag */
+
+body {
+	background: url(pic.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+div {
+	border-width: 10px;
+	border-style: line;
+	border-color: green;
+}
+
+/* A period specifies we're describing a class */
+
+.firstDivClass {
+	background: red;
+}
+
+.secondDivClass {
+	background: green;
+}
+
+/* # for dealing with IDs instead of classes */
+
+/* Adjacent element selection. Select all p tags next to a div tag */
+
+div + p {
+	border: 4px solid red;
+}
+
+/* Select elements in another element */
+
+/* Pick any li in an unordered list */
+
+ol li {
+	color: green;
+}
+
+/* Another way to select by attributes */
+
+div[class = "secondDivClass"] {
+	color: blue;
+}
+
+
+/* Specificity: the more specific you go, the higher the priority. From lowest to highest is general like div or li, then class, then id; */

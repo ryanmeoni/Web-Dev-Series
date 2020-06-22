@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h1>Feedback form</h1>
+	<form method = "GET">
+		<h3>Please list your favorite baseball team</h3>
+		<label for = "padres">Padres</label>
+		<input id = "padres" type="radio" name="selection" value = "padres">
+		<label for = "tigers">Tigers</label>
+		<input id = "tigers" type="radio" name="selection" value = "tigers">
+		<label for = "dodgers">Dodgers</label>
+		<!-- By making name the same for radio buttons, only one button can be selected at once -->
+		<input id = "dodgers" type="radio" name="selection" value = "dodgers">
+
+		<p>How was your experience at the game?</p>
+		<select class = "" name = "experienceSelection">
+			<option value = "Very Poor">Very Poor</option>
+			<option value = "Poor">Poor</option>
+			<option value = "Good">Good</option>
+			<option value = "Very Good">Very Good</option>
+		</select>
+
+		<p>Any other feedback?</p>
+
+		<textarea name = "mytext" rows = "8" cols = "80"></textarea>
+
+		<input type="submit" name="" value = "SUBMIT">
+
+	</form>
+</body>
+</html>
